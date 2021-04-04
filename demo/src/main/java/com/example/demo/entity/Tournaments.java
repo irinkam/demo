@@ -13,7 +13,8 @@ public class Tournaments {
     @Column(name = "tournament_name")
     private String tournamentName;
 
-    @OneToMany (/*mappedBy="tournaments", */fetch=FetchType.EAGER)
+    @OneToMany
+    @JoinColumn(name = "matchId")
     private Collection<Matches> matchesCollection;
 
     public Tournaments(Long tournamentId, String tournamentName) {

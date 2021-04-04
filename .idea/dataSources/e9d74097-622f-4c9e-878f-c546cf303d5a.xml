@@ -46,7 +46,7 @@ false Africa/Brazzaville
 false Africa/Bujumbura
 false Africa/Cairo
 false Africa/Casablanca
-false Africa/Ceuta
+true Africa/Ceuta
 false Africa/Conakry
 false Africa/Dakar
 false Africa/Dar_es_Salaam
@@ -104,11 +104,11 @@ false America/Argentina/San_Luis
 false America/Argentina/Tucuman
 false America/Argentina/Ushuaia
 false America/Aruba
-true America/Asuncion
+false America/Asuncion
 false America/Atikokan
 true America/Atka
 false America/Bahia
-false America/Bahia_Banderas
+true America/Bahia_Banderas
 false America/Barbados
 false America/Belem
 false America/Belize
@@ -125,7 +125,7 @@ false America/Catamarca
 false America/Cayenne
 false America/Cayman
 true America/Chicago
-false America/Chihuahua
+true America/Chihuahua
 false America/Coral_Harbour
 false America/Cordoba
 false America/Costa_Rica
@@ -146,7 +146,7 @@ false America/Fort_Nelson
 true America/Fort_Wayne
 false America/Fortaleza
 true America/Glace_Bay
-false America/Godthab
+true America/Godthab
 true America/Goose_Bay
 true America/Grand_Turk
 false America/Grenada
@@ -186,15 +186,15 @@ false America/Manaus
 false America/Marigot
 false America/Martinique
 true America/Matamoros
-false America/Mazatlan
+true America/Mazatlan
 false America/Mendoza
 true America/Menominee
-false America/Merida
+true America/Merida
 true America/Metlakatla
-false America/Mexico_City
+true America/Mexico_City
 true America/Miquelon
 true America/Moncton
-false America/Monterrey
+true America/Monterrey
 false America/Montevideo
 true America/Montreal
 false America/Montserrat
@@ -206,7 +206,7 @@ false America/Noronha
 true America/North_Dakota/Beulah
 true America/North_Dakota/Center
 true America/North_Dakota/New_Salem
-false America/Nuuk
+true America/Nuuk
 true America/Ojinaga
 false America/Panama
 true America/Pangnirtung
@@ -227,10 +227,10 @@ false America/Rio_Branco
 false America/Rosario
 true America/Santa_Isabel
 false America/Santarem
-true America/Santiago
+false America/Santiago
 false America/Santo_Domingo
 false America/Sao_Paulo
-false America/Scoresbysund
+true America/Scoresbysund
 true America/Shiprock
 true America/Sitka
 false America/St_Barthelemy
@@ -255,16 +255,16 @@ true America/Yellowknife
 false Antarctica/Casey
 false Antarctica/Davis
 false Antarctica/DumontDUrville
-true Antarctica/Macquarie
+false Antarctica/Macquarie
 false Antarctica/Mawson
-true Antarctica/McMurdo
+false Antarctica/McMurdo
 false Antarctica/Palmer
 false Antarctica/Rothera
-true Antarctica/South_Pole
+false Antarctica/South_Pole
 false Antarctica/Syowa
-false Antarctica/Troll
+true Antarctica/Troll
 false Antarctica/Vostok
-false Arctic/Longyearbyen
+true Arctic/Longyearbyen
 false Asia/Aden
 false Asia/Almaty
 true Asia/Amman
@@ -279,7 +279,7 @@ false Asia/Bahrain
 false Asia/Baku
 false Asia/Bangkok
 false Asia/Barnaul
-false Asia/Beirut
+true Asia/Beirut
 false Asia/Bishkek
 false Asia/Brunei
 false Asia/Calcutta
@@ -294,7 +294,7 @@ false Asia/Dhaka
 false Asia/Dili
 false Asia/Dubai
 false Asia/Dushanbe
-false Asia/Famagusta
+true Asia/Famagusta
 true Asia/Gaza
 false Asia/Harbin
 true Asia/Hebron
@@ -324,7 +324,7 @@ false Asia/Magadan
 false Asia/Makassar
 false Asia/Manila
 false Asia/Muscat
-false Asia/Nicosia
+true Asia/Nicosia
 false Asia/Novokuznetsk
 false Asia/Novosibirsk
 false Asia/Omsk
@@ -364,41 +364,41 @@ false Asia/Yakutsk
 false Asia/Yangon
 false Asia/Yekaterinburg
 false Asia/Yerevan
-false Atlantic/Azores
+true Atlantic/Azores
 true Atlantic/Bermuda
-false Atlantic/Canary
+true Atlantic/Canary
 false Atlantic/Cape_Verde
-false Atlantic/Faeroe
-false Atlantic/Faroe
-false Atlantic/Jan_Mayen
-false Atlantic/Madeira
+true Atlantic/Faeroe
+true Atlantic/Faroe
+true Atlantic/Jan_Mayen
+true Atlantic/Madeira
 false Atlantic/Reykjavik
 false Atlantic/South_Georgia
 false Atlantic/St_Helena
 false Atlantic/Stanley
-true Australia/ACT
-true Australia/Adelaide
+false Australia/ACT
+false Australia/Adelaide
 false Australia/Brisbane
-true Australia/Broken_Hill
-true Australia/Canberra
-true Australia/Currie
+false Australia/Broken_Hill
+false Australia/Canberra
+false Australia/Currie
 false Australia/Darwin
 false Australia/Eucla
-true Australia/Hobart
-true Australia/LHI
+false Australia/Hobart
+false Australia/LHI
 false Australia/Lindeman
-true Australia/Lord_Howe
-true Australia/Melbourne
-true Australia/NSW
+false Australia/Lord_Howe
+false Australia/Melbourne
+false Australia/NSW
 false Australia/North
 false Australia/Perth
 false Australia/Queensland
-true Australia/South
-true Australia/Sydney
-true Australia/Tasmania
-true Australia/Victoria
+false Australia/South
+false Australia/Sydney
+false Australia/Tasmania
+false Australia/Victoria
 false Australia/West
-true Australia/Yancowinna
+false Australia/Yancowinna
 true BDST
 false BDT
 false BNT
@@ -425,7 +425,7 @@ false CHAST
 false CHUT
 false CKT
 true CLST
-true CLT
+false CLT
 false COT
 false CST
 true CST6CDT
@@ -438,13 +438,13 @@ true Canada/Newfoundland
 true Canada/Pacific
 false Canada/Saskatchewan
 false Canada/Yukon
-true Chile/Continental
-true Chile/EasterIsland
+false Chile/Continental
+false Chile/EasterIsland
 true Cuba
 false DAVT
 false DDUT
-true EASST
-true EAST
+false EASST
+false EAST
 false EAT
 true EDT
 true EEST
@@ -455,7 +455,7 @@ false EGT
 false EST
 true EST5EDT
 false Egypt
-true Eire
+false Eire
 false Etc/GMT
 false Etc/GMT+0
 false Etc/GMT+1
@@ -491,69 +491,69 @@ false Etc/UCT
 false Etc/UTC
 false Etc/Universal
 false Etc/Zulu
-false Europe/Amsterdam
-false Europe/Andorra
+true Europe/Amsterdam
+true Europe/Andorra
 false Europe/Astrakhan
-false Europe/Athens
-false Europe/Belfast
-false Europe/Belgrade
-false Europe/Berlin
-false Europe/Bratislava
-false Europe/Brussels
-false Europe/Bucharest
-false Europe/Budapest
-false Europe/Busingen
-false Europe/Chisinau
-false Europe/Copenhagen
-true Europe/Dublin
-false Europe/Gibraltar
-false Europe/Guernsey
-false Europe/Helsinki
-false Europe/Isle_of_Man
+true Europe/Athens
+true Europe/Belfast
+true Europe/Belgrade
+true Europe/Berlin
+true Europe/Bratislava
+true Europe/Brussels
+true Europe/Bucharest
+true Europe/Budapest
+true Europe/Busingen
+true Europe/Chisinau
+true Europe/Copenhagen
+false Europe/Dublin
+true Europe/Gibraltar
+true Europe/Guernsey
+true Europe/Helsinki
+true Europe/Isle_of_Man
 false Europe/Istanbul
-false Europe/Jersey
+true Europe/Jersey
 false Europe/Kaliningrad
-false Europe/Kiev
+true Europe/Kiev
 false Europe/Kirov
-false Europe/Lisbon
-false Europe/Ljubljana
-false Europe/London
-false Europe/Luxembourg
-false Europe/Madrid
-false Europe/Malta
-false Europe/Mariehamn
+true Europe/Lisbon
+true Europe/Ljubljana
+true Europe/London
+true Europe/Luxembourg
+true Europe/Madrid
+true Europe/Malta
+true Europe/Mariehamn
 false Europe/Minsk
-false Europe/Monaco
+true Europe/Monaco
 false Europe/Moscow
-false Europe/Nicosia
-false Europe/Oslo
-false Europe/Paris
-false Europe/Podgorica
-false Europe/Prague
-false Europe/Riga
-false Europe/Rome
+true Europe/Nicosia
+true Europe/Oslo
+true Europe/Paris
+true Europe/Podgorica
+true Europe/Prague
+true Europe/Riga
+true Europe/Rome
 false Europe/Samara
-false Europe/San_Marino
-false Europe/Sarajevo
+true Europe/San_Marino
+true Europe/Sarajevo
 false Europe/Saratov
 false Europe/Simferopol
-false Europe/Skopje
-false Europe/Sofia
-false Europe/Stockholm
-false Europe/Tallinn
-false Europe/Tirane
-false Europe/Tiraspol
+true Europe/Skopje
+true Europe/Sofia
+true Europe/Stockholm
+true Europe/Tallinn
+true Europe/Tirane
+true Europe/Tiraspol
 false Europe/Ulyanovsk
-false Europe/Uzhgorod
-false Europe/Vaduz
-false Europe/Vatican
-false Europe/Vienna
-false Europe/Vilnius
+true Europe/Uzhgorod
+true Europe/Vaduz
+true Europe/Vatican
+true Europe/Vienna
+true Europe/Vilnius
 false Europe/Volgograd
-false Europe/Warsaw
-false Europe/Zagreb
-false Europe/Zaporozhye
-false Europe/Zurich
+true Europe/Warsaw
+true Europe/Zagreb
+true Europe/Zaporozhye
+true Europe/Zurich
 false FET
 true FJST
 false FJT
@@ -564,8 +564,8 @@ false FNT
 false Factory
 false GALT
 false GAMT
-false GB
-false GB-Eire
+true GB
+true GB-Eire
 false GEST
 false GET
 false GFT
@@ -612,7 +612,7 @@ false KRAST
 false KRAT
 false KST
 false Kwajalein
-true LHDT
+false LHDT
 false LHST
 false LIGT
 false LINT
@@ -625,7 +625,7 @@ false MAWT
 true MDT
 true MEST
 true MESZ
-false MET
+true MET
 true METDST
 false MEZ
 false MHT
@@ -640,8 +640,8 @@ false MUT
 false MVT
 false MYT
 true Mexico/BajaNorte
-false Mexico/BajaSur
-false Mexico/General
+true Mexico/BajaSur
+true Mexico/General
 true NDT
 false NFT
 false NOVST
@@ -649,8 +649,8 @@ false NOVT
 false NPT
 false NST
 false NUT
-true NZ
-true NZ-CHAT
+false NZ
+false NZ-CHAT
 true NZDT
 false NZST
 false NZT
@@ -674,13 +674,13 @@ false PST
 true PST8PDT
 false PWT
 true PYST
-true PYT
-true Pacific/Apia
-true Pacific/Auckland
+false PYT
+false Pacific/Apia
+false Pacific/Auckland
 false Pacific/Bougainville
-true Pacific/Chatham
+false Pacific/Chatham
 false Pacific/Chuuk
-true Pacific/Easter
+false Pacific/Easter
 false Pacific/Efate
 false Pacific/Enderbury
 false Pacific/Fakaofo
@@ -700,7 +700,7 @@ false Pacific/Marquesas
 false Pacific/Midway
 false Pacific/Nauru
 false Pacific/Niue
-true Pacific/Norfolk
+false Pacific/Norfolk
 false Pacific/Noumea
 false Pacific/Pago_Pago
 false Pacific/Palau
@@ -718,8 +718,8 @@ false Pacific/Truk
 false Pacific/Wake
 false Pacific/Wallis
 false Pacific/Yap
-false Poland
-false Portugal
+true Poland
+true Portugal
 false RET
 false ROC
 false ROK
@@ -770,7 +770,7 @@ false WAKT
 false WAST
 false WAT
 true WDT
-false WET
+true WET
 true WETDST
 false WFT
 true WGST
@@ -784,12 +784,12 @@ false YEKT
 false Z
 false Zulu
 </TimeZones>
-      <StartupTime>1616663837</StartupTime>
+      <StartupTime>1617112833</StartupTime>
     </root>
     <database id="2" parent="1" name="football">
       <ObjectId>16394</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>520</IntrospectionStateNumber>
+      <IntrospectionStateNumber>538</IntrospectionStateNumber>
       <Current>1</Current>
       <Relations>sequence|table|24576|24578|1
 </Relations>
@@ -867,7 +867,7 @@ UC/10
 </Acl>
       <StateNumber>286</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>521</IntrospectionStateNumber>
+      <IntrospectionStateNumber>539</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <extension id="18" parent="2" name="plpgsql">
@@ -991,70 +991,80 @@ UC/10
       <Owner>postgres</Owner>
       <StateNumber>491</StateNumber>
     </table>
-    <table id="34" parent="17" name="stadiums">
+    <table id="34" parent="17" name="role">
+      <ObjectId>32786</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>535</StateNumber>
+    </table>
+    <table id="35" parent="17" name="stadiums">
       <ObjectId>24606</ObjectId>
       <Options>autovacuum_enabled=true</Options>
       <Owner>postgres</Owner>
       <StateNumber>491</StateNumber>
     </table>
-    <table id="35" parent="17" name="stages_of_tournaments">
+    <table id="36" parent="17" name="stages_of_tournaments">
       <ObjectId>24625</ObjectId>
       <Options>autovacuum_enabled=true</Options>
       <Owner>postgres</Owner>
       <StateNumber>491</StateNumber>
     </table>
-    <table id="36" parent="17" name="teams">
+    <table id="37" parent="17" name="teams">
       <ObjectId>24592</ObjectId>
       <Options>autovacuum_enabled=true</Options>
       <Owner>postgres</Owner>
       <StateNumber>491</StateNumber>
     </table>
-    <table id="37" parent="17" name="teamsInMatch">
+    <table id="38" parent="17" name="teamsInMatch">
       <ObjectId>32771</ObjectId>
       <Options>autovacuum_enabled=true</Options>
       <Owner>postgres</Owner>
       <StateNumber>519</StateNumber>
     </table>
-    <table id="38" parent="17" name="tournaments">
+    <table id="39" parent="17" name="tournaments">
       <ObjectId>24587</ObjectId>
       <Options>autovacuum_enabled=true</Options>
       <Owner>postgres</Owner>
       <StateNumber>491</StateNumber>
     </table>
-    <table id="39" parent="17" name="users">
+    <table id="40" parent="17" name="user">
       <ObjectId>24578</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>489</StateNumber>
+      <StateNumber>536</StateNumber>
     </table>
-    <column id="40" parent="31" name="time">
+    <table id="41" parent="17" name="user_role">
+      <ObjectId>32794</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>537</StateNumber>
+    </table>
+    <column id="42" parent="31" name="time">
       <Position>1</Position>
       <DataType>varchar(6)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="41" parent="31" name="player_name">
+    <column id="43" parent="31" name="player_name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="42" parent="31" name="foul_code">
+    <column id="44" parent="31" name="foul_code">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="43" parent="31" name="match_id">
+    <column id="45" parent="31" name="match_id">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="44" parent="31" name="Unique_Identifier9">
+    <index id="46" parent="31" name="Unique_Identifier9">
       <ObjectId>24618</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>time
@@ -1066,7 +1076,7 @@ foul_code</ColNames>
       <CollationNames>default</CollationNames>
       <ClassIds>3126,1978</ClassIds>
     </index>
-    <index id="45" parent="31" name="IX_Нарушения в матче">
+    <index id="47" parent="31" name="IX_Нарушения в матче">
       <ObjectId>24617</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>match_id</ColNames>
@@ -1074,7 +1084,7 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="46" parent="31" name="Unique_Identifier9">
+    <key id="48" parent="31" name="Unique_Identifier9">
       <ObjectId>24619</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>time
@@ -1082,7 +1092,7 @@ foul_code</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>Unique_Identifier9</UnderlyingIndexName>
     </key>
-    <foreign-key id="47" parent="31" name="Тип зафиксированного нарушения">
+    <foreign-key id="49" parent="31" name="Тип зафиксированного нарушения">
       <ObjectId>24640</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>foul_code</ColNames>
@@ -1092,7 +1102,7 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier13</RefKeyName>
       <RefColNames>foul_code</RefColNames>
     </foreign-key>
-    <foreign-key id="48" parent="31" name="Нарушения в матче">
+    <foreign-key id="50" parent="31" name="Нарушения в матче">
       <ObjectId>24655</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>match_id</ColNames>
@@ -1102,21 +1112,21 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier7</RefKeyName>
       <RefColNames>match_id</RefColNames>
     </foreign-key>
-    <column id="49" parent="32" name="foul_code">
+    <column id="51" parent="32" name="foul_code">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="50" parent="32" name="foul_type">
+    <column id="52" parent="32" name="foul_type">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="51" parent="32" name="Unique_Identifier13">
+    <index id="53" parent="32" name="Unique_Identifier13">
       <ObjectId>24623</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>foul_code</ColNames>
@@ -1126,63 +1136,63 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="52" parent="32" name="Unique_Identifier13">
+    <key id="54" parent="32" name="Unique_Identifier13">
       <ObjectId>24624</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>foul_code</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>Unique_Identifier13</UnderlyingIndexName>
     </key>
-    <column id="53" parent="33" name="match_id">
+    <column id="55" parent="33" name="match_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="54" parent="33" name="date">
+    <column id="56" parent="33" name="date">
       <Position>2</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1114</TypeId>
     </column>
-    <column id="55" parent="33" name="first_team_goals">
+    <column id="57" parent="33" name="first_team_goals">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>492</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="56" parent="33" name="second_team_goals">
+    <column id="58" parent="33" name="second_team_goals">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>493</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="57" parent="33" name="stadium_id">
+    <column id="59" parent="33" name="stadium_id">
       <Position>5</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="58" parent="33" name="tournament_id">
+    <column id="60" parent="33" name="tournament_id">
       <Position>6</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="59" parent="33" name="stage_id">
+    <column id="61" parent="33" name="stage_id">
       <Position>7</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="60" parent="33" name="Unique_Identifier7">
+    <index id="62" parent="33" name="Unique_Identifier7">
       <ObjectId>24604</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>match_id</ColNames>
@@ -1192,7 +1202,7 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="61" parent="33" name="IX_Место проведения">
+    <index id="63" parent="33" name="IX_Место проведения">
       <ObjectId>24601</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stadium_id</ColNames>
@@ -1200,7 +1210,7 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="62" parent="33" name="IX_Проводятся">
+    <index id="64" parent="33" name="IX_Проводятся">
       <ObjectId>24602</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>tournament_id</ColNames>
@@ -1208,7 +1218,7 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="63" parent="33" name="IX_Стадии турнира в матче">
+    <index id="65" parent="33" name="IX_Стадии турнира в матче">
       <ObjectId>24603</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stage_id</ColNames>
@@ -1216,14 +1226,14 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="64" parent="33" name="Unique_Identifier7">
+    <key id="66" parent="33" name="Unique_Identifier7">
       <ObjectId>24605</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>match_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>Unique_Identifier7</UnderlyingIndexName>
     </key>
-    <foreign-key id="65" parent="33" name="Место проведения">
+    <foreign-key id="67" parent="33" name="Место проведения">
       <ObjectId>24630</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stadium_id</ColNames>
@@ -1233,7 +1243,7 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier8</RefKeyName>
       <RefColNames>stadium_id</RefColNames>
     </foreign-key>
-    <foreign-key id="66" parent="33" name="Проводятся">
+    <foreign-key id="68" parent="33" name="Проводятся">
       <ObjectId>24635</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>tournament_id</ColNames>
@@ -1243,7 +1253,7 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier1</RefKeyName>
       <RefColNames>tournament_id</RefColNames>
     </foreign-key>
-    <foreign-key id="67" parent="33" name="Стадии турнира в матче">
+    <foreign-key id="69" parent="33" name="Стадии турнира в матче">
       <ObjectId>24645</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stage_id</ColNames>
@@ -1253,35 +1263,66 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier16</RefKeyName>
       <RefColNames>stage_id</RefColNames>
     </foreign-key>
-    <column id="68" parent="34" name="stadium_id">
+    <column id="70" parent="34" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>529</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="71" parent="34" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>529</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <index id="72" parent="34" name="roles_pkey">
+      <ObjectId>32792</ObjectId>
+      <StateNumber>529</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationIds>0</CollationIds>
+      <ClassIds>1978</ClassIds>
+    </index>
+    <key id="73" parent="34" name="roles_pkey">
+      <ObjectId>32793</ObjectId>
+      <StateNumber>529</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>roles_pkey</UnderlyingIndexName>
+    </key>
+    <column id="74" parent="35" name="stadium_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="69" parent="34" name="stadium_name">
+    <column id="75" parent="35" name="stadium_name">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="70" parent="34" name="capacity">
+    <column id="76" parent="35" name="capacity">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="71" parent="34" name="city">
+    <column id="77" parent="35" name="city">
       <Position>4</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="72" parent="34" name="Unique_Identifier8">
+    <index id="78" parent="35" name="Unique_Identifier8">
       <ObjectId>24609</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stadium_id</ColNames>
@@ -1291,28 +1332,28 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="73" parent="34" name="Unique_Identifier8">
+    <key id="79" parent="35" name="Unique_Identifier8">
       <ObjectId>24610</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stadium_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>Unique_Identifier8</UnderlyingIndexName>
     </key>
-    <column id="74" parent="35" name="stage_id">
+    <column id="80" parent="36" name="stage_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="75" parent="35" name="stage_name">
+    <column id="81" parent="36" name="stage_name">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="76" parent="35" name="Unique_Identifier16">
+    <index id="82" parent="36" name="Unique_Identifier16">
       <ObjectId>24628</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stage_id</ColNames>
@@ -1322,42 +1363,42 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="77" parent="35" name="Unique_Identifier16">
+    <key id="83" parent="36" name="Unique_Identifier16">
       <ObjectId>24629</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stage_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>Unique_Identifier16</UnderlyingIndexName>
     </key>
-    <column id="78" parent="36" name="team_id">
+    <column id="84" parent="37" name="team_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="79" parent="36" name="team_name">
+    <column id="85" parent="37" name="team_name">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="80" parent="36" name="country">
+    <column id="86" parent="37" name="country">
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="81" parent="36" name="stadium_id">
+    <column id="87" parent="37" name="stadium_id">
       <Position>4</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="82" parent="36" name="Unique_Identifier2">
+    <index id="88" parent="37" name="Unique_Identifier2">
       <ObjectId>24596</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>team_id</ColNames>
@@ -1367,7 +1408,7 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="83" parent="36" name="IX_Закрепляются">
+    <index id="89" parent="37" name="IX_Закрепляются">
       <ObjectId>24595</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stadium_id</ColNames>
@@ -1375,14 +1416,14 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="84" parent="36" name="Unique_Identifier2">
+    <key id="90" parent="37" name="Unique_Identifier2">
       <ObjectId>24597</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>team_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>Unique_Identifier2</UnderlyingIndexName>
     </key>
-    <foreign-key id="85" parent="36" name="Закрепляются">
+    <foreign-key id="91" parent="37" name="Закрепляются">
       <ObjectId>24650</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>stadium_id</ColNames>
@@ -1392,19 +1433,19 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier8</RefKeyName>
       <RefColNames>stadium_id</RefColNames>
     </foreign-key>
-    <column id="86" parent="37" name="team_id">
+    <column id="92" parent="38" name="team_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <StateNumber>519</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="87" parent="37" name="match_id">
+    <column id="93" parent="38" name="match_id">
       <Position>2</Position>
       <DataType>bigint|0s</DataType>
       <StateNumber>519</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <index id="88" parent="37" name="IX_Relationship1">
+    <index id="94" parent="38" name="IX_Relationship1">
       <ObjectId>32774</ObjectId>
       <StateNumber>519</StateNumber>
       <ColNames>team_id</ColNames>
@@ -1412,7 +1453,7 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <index id="89" parent="37" name="IX_Relationship2">
+    <index id="95" parent="38" name="IX_Relationship2">
       <ObjectId>32775</ObjectId>
       <StateNumber>519</StateNumber>
       <ColNames>match_id</ColNames>
@@ -1420,7 +1461,7 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <foreign-key id="90" parent="37" name="Команды в матче">
+    <foreign-key id="96" parent="38" name="Команды в матче">
       <ObjectId>32776</ObjectId>
       <StateNumber>519</StateNumber>
       <ColNames>team_id</ColNames>
@@ -1430,7 +1471,7 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier2</RefKeyName>
       <RefColNames>team_id</RefColNames>
     </foreign-key>
-    <foreign-key id="91" parent="37" name="Матчи команд">
+    <foreign-key id="97" parent="38" name="Матчи команд">
       <ObjectId>32781</ObjectId>
       <StateNumber>519</StateNumber>
       <ColNames>match_id</ColNames>
@@ -1440,21 +1481,21 @@ foul_code</ColNames>
       <RefKeyName>Unique_Identifier7</RefKeyName>
       <RefColNames>match_id</RefColNames>
     </foreign-key>
-    <column id="92" parent="38" name="tournament_id">
+    <column id="98" parent="39" name="tournament_id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>20</TypeId>
     </column>
-    <column id="93" parent="38" name="tournament_name">
+    <column id="99" parent="39" name="tournament_name">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>491</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="94" parent="38" name="Unique_Identifier1">
+    <index id="100" parent="39" name="Unique_Identifier1">
       <ObjectId>24590</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>tournament_id</ColNames>
@@ -1464,14 +1505,14 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>3124</ClassIds>
     </index>
-    <key id="95" parent="38" name="Unique_Identifier1">
+    <key id="101" parent="39" name="Unique_Identifier1">
       <ObjectId>24591</ObjectId>
       <StateNumber>491</StateNumber>
       <ColNames>tournament_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>Unique_Identifier1</UnderlyingIndexName>
     </key>
-    <column id="96" parent="39" name="id">
+    <column id="102" parent="40" name="id">
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
@@ -1479,54 +1520,48 @@ foul_code</ColNames>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>23</TypeId>
     </column>
-    <column id="97" parent="39" name="username">
+    <column id="103" parent="40" name="username">
       <Position>2</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>489</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="98" parent="39" name="password">
+    <column id="104" parent="40" name="password">
       <Position>3</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>489</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="99" parent="39" name="first_name">
+    <column id="105" parent="40" name="first_name">
       <Position>4</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>489</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="100" parent="39" name="last_name">
+    <column id="106" parent="40" name="last_name">
       <Position>5</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>489</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="101" parent="39" name="age">
+    <column id="107" parent="40" name="age">
       <Position>6</Position>
       <DataType>integer|0s</DataType>
       <StateNumber>489</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="102" parent="39" name="email">
+    <column id="108" parent="40" name="email">
       <Position>7</Position>
       <DataType>text|0s</DataType>
       <NotNull>1</NotNull>
       <StateNumber>489</StateNumber>
       <TypeId>25</TypeId>
     </column>
-    <column id="103" parent="39" name="roles">
-      <Position>8</Position>
-      <DataType>text|0s</DataType>
-      <StateNumber>514</StateNumber>
-      <TypeId>25</TypeId>
-    </column>
-    <index id="104" parent="39" name="users_pkey">
+    <index id="109" parent="40" name="users_pkey">
       <ObjectId>24585</ObjectId>
       <StateNumber>489</StateNumber>
       <ColNames>id</ColNames>
@@ -1536,12 +1571,44 @@ foul_code</ColNames>
       <CollationIds>0</CollationIds>
       <ClassIds>1978</ClassIds>
     </index>
-    <key id="105" parent="39" name="users_pkey">
+    <key id="110" parent="40" name="users_pkey">
       <ObjectId>24586</ObjectId>
       <StateNumber>489</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
     </key>
+    <column id="111" parent="41" name="user_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>530</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="112" parent="41" name="role_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>530</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <foreign-key id="113" parent="41" name="user_roles_user_id_fkey">
+      <ObjectId>32797</ObjectId>
+      <StateNumber>530</StateNumber>
+      <ColNames>user_id</ColNames>
+      <RefTableId>24578</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user</RefTableName>
+      <RefKeyName>users_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="114" parent="41" name="user_roles_role_id_fkey">
+      <ObjectId>32802</ObjectId>
+      <StateNumber>530</StateNumber>
+      <ColNames>role_id</ColNames>
+      <RefTableId>32786</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>role</RefTableName>
+      <RefKeyName>roles_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>

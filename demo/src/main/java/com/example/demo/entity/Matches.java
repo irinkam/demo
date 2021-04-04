@@ -32,7 +32,7 @@ public class Matches {
     @JoinColumn(name = "stage_id")
     private StagesOfTournaments stage;
 
-    @OneToMany (mappedBy="matches", fetch=FetchType.EAGER)
+    @OneToMany (fetch=FetchType.EAGER)
     private Collection<Fouls> foulsCollection;
 
     public Matches(Long matchId, Date date, Integer firstTeamGoals, Integer secondTeamGoals, Stadiums stadium) {

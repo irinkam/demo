@@ -1,6 +1,6 @@
 package com.example.demo.service.implementations;
 
-import com.example.demo.entity.Roles;
+import com.example.demo.entity.Role;
 import com.example.demo.entity.Users;
 import com.example.demo.repository.RoleRepository;
 import com.example.demo.repository.UsersRepository;
@@ -9,10 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Optional;
-import java.util.Set;
+import java.util.*;
 
 @Service
 public class UsersServiceImplementation implements UsersService {
@@ -32,12 +29,23 @@ public class UsersServiceImplementation implements UsersService {
     }
 
     @Override
-    public void saveUser(Users user) {
+    public boolean saveUser(Users user) {
+        Users userFromDB = usersRepository.findByUsername(user.getUsername());
+
+        if (userFromDB != null) {
+            return false;
+        }
+
+        user.setRoles(Collections.singleton(new Role(1L, "ROLE_USER")));
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+        usersRepository.save(user);
+        return true;
+
+        /*user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         Set<Roles> roles = new HashSet<>();
         roles.add(roleRepository.getOne(1L));
         user.setRoles(roles);
-        this.usersRepository.save(user);
+        this.usersRepository.save(user);*/
     }
 
     @Override
@@ -53,8 +61,12 @@ public class UsersServiceImplementation implements UsersService {
     }
 
     @Override
-    public void deleteUser(long id) {
-        this.usersRepository.deleteById(id);
+    public boolean deleteUser(long id) {
+        if (usersRepository.findById(id).isPresent()) {
+            usersRepository.deleteById(id);
+            return true;
+        }
+        return false;
     }
 
     @Override

@@ -1,11 +1,13 @@
 package com.example.demo.entity;
 
+import org.springframework.security.core.GrantedAuthority;
+
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 @Table(name = "roles")
-public class Roles {
+public class Role implements GrantedAuthority {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -16,6 +18,11 @@ public class Roles {
 
     @ManyToMany(mappedBy = "roles")
     private Set<Users> users;
+
+    public Role(long id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public long getId() {
         return id;
@@ -41,14 +48,10 @@ public class Roles {
         this.users = users;
     }
 
-    public Roles() { }
+    public Role() { }
 
     @Override
-    public String toString() {
-        return "Roles{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", users=" + users +
-                '}';
+    public String getAuthority() {
+        return getName();
     }
 }
